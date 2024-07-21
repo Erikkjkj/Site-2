@@ -101,6 +101,14 @@ body {
     padding: 2em;
 }
 
+.espaço1{
+    padding: 2em;
+}
+
+.espaço2{
+    padding: 2em;
+}
+
 .final{
     align-content: center;
     text-align: center;
@@ -116,7 +124,7 @@ body {
     align-content: center;
 }
 
-.espaço1{
+.espaço3{
     padding: 2em;
 }
 
