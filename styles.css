@@ -1,0 +1,127 @@
+:root {
+    --azul-principal: #2A4374;
+    --vermelho-secundario: rgb(250, 15, 15);
+    --botao-azul: #2A4374;
+    --cor-de-fundo: #D2E4F9;
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--azul-principal);
+    font-family: 'Playwrite CU', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/anunciomrhandy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-de-fundo);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--azul-principal)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--vermelho-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--azul-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--azul-principal);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.espaço{
+    padding: 2em;
+}
+
+.final{
+    align-content: center;
+    text-align: center;
+}
+
+.robco{
+    background-color: #2A4374;
+    width: 15%;
+}
+
+.footer{
+    background-color: #2A4374;
+    align-content: center;
+}
+
+.espaço1{
+    padding: 2em;
+}
+
+.recado{
+    text-align: center;
+    font-size: 80%;
+    color: #D2E4F9;
+}
